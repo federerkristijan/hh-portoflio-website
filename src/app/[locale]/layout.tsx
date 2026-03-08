@@ -31,8 +31,8 @@ export default async function LocaleLayout({
   const direction = locale === 'he' ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={direction}>
-      <body>
+    <html lang={locale} dir={direction} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

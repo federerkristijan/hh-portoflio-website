@@ -1,4 +1,5 @@
 import {getTranslations} from 'next-intl/server';
+import LocaleSwitcher from '@/components/layout/LocaleSwitcher';
 
 export default async function HomePage() {
   const tNav = await getTranslations('nav');
@@ -10,11 +11,15 @@ export default async function HomePage() {
   return (
     <>
       <header className="site-header">
-        <div className="container nav">
-          <a href="#home">{tNav('home')}</a>
-          <a href="#about">{tNav('about')}</a>
-          <a href="#portfolio">{tNav('portfolio')}</a>
-          <a href="#instagram">{tNav('instagram')}</a>
+        <div className="container nav-row">
+          <nav className="nav" aria-label="Main navigation">
+            <a href="#home">{tNav('home')}</a>
+            <a href="#about">{tNav('about')}</a>
+            <a href="#portfolio">{tNav('portfolio')}</a>
+            <a href="#instagram">{tNav('instagram')}</a>
+          </nav>
+
+          <LocaleSwitcher />
         </div>
       </header>
 
