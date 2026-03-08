@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "instagram": "Instagram"
+  },
+  "hero": {
+    "name": "Hadas Hinkis",
+    "title": "Media Creator",
+    "subtitle": "Art director, video creator, AI visuals, video and audio editing"
+  },
+  "about": {
+    "title": "About",
+    "text": "Hi! I’m a multidisciplinary creative, with a passion for color and aesthetics and a love for good storytelling. Obsessed with social media, I understand the impact video and audio have on creating social change. I want to create media that is pleasant and engaging, while adding value and making an impact."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "creativeDirection": "Creative Direction & theatrical Portraits",
+    "showreel": "Director Showreel",
+    "aiVideo": "AI video",
+    "instagram": "My personal Instagram"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}
